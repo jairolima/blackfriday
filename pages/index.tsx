@@ -1,4 +1,5 @@
 import { Heading, Grid, Flex, Button, Text, Box } from "@chakra-ui/core";
+import Discount from '../components/Discount';
 
 const Home: React.FC = () => {
 
@@ -44,7 +45,8 @@ const Home: React.FC = () => {
 
 
         <Flex gridArea="image">
-          <img src="discount.svg" alt="discount" />
+          <Discount />
+          {/* <img src="discount.svg" alt="discount" /> */}
         </Flex>
 
 
